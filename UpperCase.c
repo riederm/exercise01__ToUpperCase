@@ -6,7 +6,7 @@
  * turns the given String into upper-case characters
 */
 void toUpperCase(char* text){
-  //TODO
+  //lalalal
 }
 
 void test(char* text){
