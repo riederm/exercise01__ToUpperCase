@@ -6,7 +6,9 @@
  * turns the given String into upper-case characters
 */
 void toUpperCase(char* text){
-  //TODO fsafsdfdsfsdaafsfa
+  for(int i=0; i<strlen(text); i++){
+    text[i] = text[i] + ('a'-'A');
+  }
 }
 
 void test(char* text){
