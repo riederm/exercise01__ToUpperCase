@@ -20,7 +20,7 @@ void test(char* text){
 
 
 int main(int argc, char const *argv[]) {
-  test("abc");
+  test("this is a test");
   
   return 0;
 }
