@@ -2,13 +2,11 @@
 #include <string.h>
 #include <stdlib.h>
 
-// hallo
-
 /*
  * turns the given String into upper-case characters
 */
 void toUpperCase(char* text){
-    // find the delta for the ascii-code and add/subtract it
+  //TODO
 }
 
 void test(char* text){
@@ -16,11 +14,11 @@ void test(char* text){
   strcpy(newString, text);
   toUpperCase(newString);
   printf("%s --> %s\n", text, newString);
+  free(newString);
 }
 
-
 int main(int argc, char const *argv[]) {
-  test("abc");
+  test("xyz");
   
   return 0;
 }
