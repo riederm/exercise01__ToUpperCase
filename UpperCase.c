@@ -6,7 +6,7 @@
  * turns the given String into upper-case characters
 */
 void toUpperCase(char* text){
-    // TODO 
+    // find the delta for the ascii-code and add/subtract it
 }
 
 void test(char* text){
