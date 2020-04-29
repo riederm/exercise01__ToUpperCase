@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
 // hallo i´m pa
  
 /*
- * turns the given String into upper-case characters
+ * turns the given String into upper-case character
 */
 void toUpperCase(char* text){
-    
 }
 
 void test(char* text){
