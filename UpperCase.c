@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-// hallo
+// hallo wie geht es dir
  
 /*
  * turns the given String into upper-case characters
