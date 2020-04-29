@@ -8,7 +8,11 @@
  * turns the given String into upper-case characters
 */
 void toUpperCase(char* text){
-    
+    for(long unsigned int i = 0; i < strlen(text)*sizeof(char); ++i){
+        if (text[i] >= 'a' && text[i] <= 'z'){
+                text[i] = text[i] - ('a'-'A');
+        }
+    }
 }
 
 void test(char* text){
@@ -23,6 +27,7 @@ int main(int argc, char const *argv[]) {
 
   test("xyz");
   test("this is a test");
+  test("yay i see a lot of capital letters");
   
   return 0;
 }
