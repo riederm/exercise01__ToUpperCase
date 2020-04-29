@@ -2,8 +2,10 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 // hallo
 // i am batman
+
 /*
  * turns the given String into upper-case characters
 */
