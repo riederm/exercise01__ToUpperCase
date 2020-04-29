@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 // hallo
- 
+// Leute
 /*
  * turns the given String into upper-case characters
 */
