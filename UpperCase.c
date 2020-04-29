@@ -21,8 +21,9 @@ void test(char* text){
 
 int main(int argc, char const *argv[]) {
 
-  test("xyz");
+  test("hello world");
   test("this is a test");
   
   return 0;
 }
+//xyz in XYZ
