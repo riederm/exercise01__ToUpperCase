@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <sys/types.h>
 
-// hallo abc XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
- 
 /*
  * turns the given String into upper-case characters
 */
