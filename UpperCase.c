@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
-// hallo abc XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
  
 /*
  * turns the given String into upper-case characters
@@ -22,7 +20,6 @@ void test(char* text){
   toUpperCase(newString);
   printf("%s --> %s\n", text, newString);
 }
-
 
 int main(int argc, char const *argv[]) {
 
