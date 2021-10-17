@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
- * turns the given String into upper-case characters
+ * add doc here
 */
 void toUpperCase(char* text){
   //TODO
